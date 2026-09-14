@@ -30,3 +30,19 @@ de démonstration SauceDemo (site conçu pour l'entraînement au test logiciel).
 
 - Automatisation d'un premier scénario avec Cypress
 - Test d'autres fonctionnalités (panier, tri des produits)
+  
+## Automatisation (Cypress)
+
+Le dossier `cypress-tests/` contient un premier script d'automatisation écrit avec Cypress, 
+couvrant 3 scénarios de la fonctionnalité de connexion :
+
+- **TC01** : connexion réussie avec des identifiants valides
+- **TC02** : connexion refusée avec un mot de passe incorrect
+- **TC04** : connexion refusée avec un compte utilisateur bloqué
+
+Chaque test vérifie soit la redirection vers la page produits (connexion réussie), 
+soit l'apparition d'un message d'erreur précis et correspondant au cas testé.
+
+Ces scénarios reprennent la logique déjà validée manuellement dans le plan de test 
+(feuille "Plan de test" du fichier Excel), afin de démontrer le passage d'un test manuel 
+à sa version automatisée.
