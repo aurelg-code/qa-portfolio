@@ -17,6 +17,7 @@ de démonstration SauceDemo (site conçu pour l'entraînement au test logiciel).
   incluant cas positifs, cas d'erreur et champ vide), avec les résultats d'exécution.
 - Feuille "Bugs" du même fichier : rapport de bug détaillé sur une anomalie détectée durant les tests.
 - Capture d'écran illustrant l'anomalie trouvée (BUG-001).
+- Feuille "Panier" du même fichier : plan de test de la fonctionnalité panier (5 cas), aucune anomalie détectée.
 
 ## Méthodologie appliquée
 
